@@ -1,9 +1,9 @@
 # Set up default list
 default: init js css zip clean
 
-# Create the directory
+# Create the directory by copying the src directory
 init:
-	mkdir package
+	cp -r src package
 
 # Compress JavaScript
 js:
