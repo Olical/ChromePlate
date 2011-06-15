@@ -7,6 +7,12 @@ init:
 
 # Compress JavaScript
 js:
+	for file in package/*/*.js package/*.js; do\
+		if [[ $${file} != *.min.js ]]; then\
+			java -jar build/compiler.jar --js $${file} --js_output_file $${file}.tmp;\
+			mv $${file}.tmp $${file};\
+		fi;\
+	done;
 
 # Compress CSS
 css:
