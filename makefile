@@ -40,7 +40,7 @@ js:
 css:
 	for file in ${cssFiles}; do\
 		java -jar build/yuicompressor.jar $${file} --type css -o $${file};\
-	done;]
+	done;
 
 # Remove the old one and rezip
 zip:
