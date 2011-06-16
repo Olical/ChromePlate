@@ -2,12 +2,10 @@
 package = package/
 
 # Create the list of JavaScript files to be compressed
-#jsFiles =	${package}example.js\
-#			${package}example2.js
+jsFiles =	${package}assets/javascript/main.js
 
 # Create the list of CSS files to be compressed
-#cssFiles =	${package}example.css\
-#			${package}example2.css
+cssFiles =	${package}assets/style.css
 
 # Set up default list
 default: init validate js css zip clean
@@ -19,7 +17,7 @@ init:
 
 # Validate JavaScript
 validate:
-	@@echo "Validating JavaScript\n"
+	@@echo 'Validating JavaScript'
 	@@for file in ${jsFiles}; do\
 		node build/validate.js $${file};\
 	done;
