@@ -20,7 +20,7 @@ The validator will help you write good clean JavaScript and should spot the odd 
 
 Every time you add another CSS or JavaScript file just pop into the makefile and add it to either the JavaScript or CSS file list.
 
-So say you had included another source file your JavaScript include would look like this, providing you had not removed the initial `main.js` file.
+So say you had included another JavaScript file, your JavaScript file list would look like this, providing you had not removed the initial `main.js` file.
 
     jsFiles = ${package}assets/javascript/main.js\
               ${package}assets/javascript/more-javascript.js
