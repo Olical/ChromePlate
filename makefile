@@ -1,10 +1,10 @@
 # Set the package directory
 package = package/
 
-# Create the list of JavaScript files to be compressed
+### Put your list of JavaScript files here ###
 jsFiles =	${package}assets/javascript/main.js
 
-# Create the list of CSS files to be compressed
+### Put your list of CSS files here ###
 cssFiles =	${package}assets/style.css
 
 # Set up default list
