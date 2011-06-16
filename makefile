@@ -5,16 +5,9 @@ package = package/
 #jsFiles =	${package}example.js\
 #			${package}example2.js
 
-jsFiles =	${package}script1.js\
-			${package}deep/script2.js
-
 # Create the list of CSS files to be compressed
 #cssFiles =	${package}example.css\
 #			${package}example2.css
-
-cssFiles =	${package}style1.css\
-			${package}deep/style2.css\
-			${package}deep/deeper/inception.css
 
 # Set up default list
 default: init validate js css zip clean
