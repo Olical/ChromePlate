@@ -10,6 +10,9 @@ cssFiles =	${package}assets/style.css
 # Set up default list
 default: init validate js css zip clean
 
+# Set up the list for people without node or people that do not want to validate
+no-validate: init js css zip clean
+
 # Create the directory by copying the src directory
 init:
 	@@echo 'Cloning src into package'
