@@ -17,6 +17,8 @@ var src = require('fs').readFileSync(process.argv[2], 'utf8'),
 
 // Check for errors
 if(!result) {
+	sys.puts('');
+	
 	// It's the end of the world!
 	for(i = 0; i < jshint.errors.length; i++) {
 		// Log the error
