@@ -2,7 +2,7 @@
 
 **ChromePlate** is a base layout for your Chrome apps and extensions.
 
-It comes complete with CSS / JavaScript compressors, a few useful templates and a HTML5 CSS reset.
+It comes complete with CSS / JavaScript compressors, an extremely strict JavaScript validator, a load of useful templates and a HTML5 CSS reset.
 
 # Author
 
