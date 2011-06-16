@@ -16,6 +16,8 @@ I must warn you, I have made the validator extremely strict. This is because I l
 
 The validator will help you write good clean JavaScript and should spot the odd error too.
 
+**Remember to update the manifest with the correct details before packaging**
+
 # Listing files in the makefile
 
 Every time you add another CSS or JavaScript file just pop into the makefile and add it to either the JavaScript or CSS file list.
